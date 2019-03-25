@@ -5,7 +5,7 @@ import { h, render, Component } from "preact";
 /** @jsx h */
 import { getAge } from "./datehelper";
 
-const rootUrl = "https://data.irozhlas.cz/uk-prezident-kandidati";
+const rootUrl = "https://data.irozhlas.cz/ua-prezident-kandidati";
 //const rootUrl = "http://localhost:8000/sk-prezident-kandidati";
 
 const DisplayBox = ({ candidate, handleClick }) => {
