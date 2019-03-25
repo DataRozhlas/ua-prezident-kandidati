@@ -1,0 +1,171 @@
+#tablo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#tablo .entry {
+  width: 30%;
+  box-shadow: 0 0 10px 0 rgba(186,186,186,0.5);
+  transition: transform 0.3s;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#tablo .entry:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+#tablo .entry-img {
+  width: 100%;
+}
+
+#tablo .entry-name {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#tablo .entry-blurb, #tablo .entry-age {
+  font-size: 0.9em;
+  color: grey;
+}
+
+#tablo .entry-desc {
+  font-size: 0.9em;
+  width: calc(100% - 1.5em);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#tablo .displaybox-overlay {
+  opacity: 0.8;
+  background-color:#ccc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#tablo .displaybox {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 600px;
+  max-height: 80vh;
+  border: 1px solid lightgray;
+  background: white;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#tablo .displaybox-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#tablo .displaybox-img-container {
+  width: 200px;
+}
+
+#tablo .displaybox-img {
+  width: 200px;
+}
+
+#tablo .displaybox-header {
+  padding-left: 10px;
+}
+
+#tablo .displaybox-close {
+  font-size: 2em;
+  cursor: pointer;
+  padding-right: 10px;
+  align-self: baseline;
+}
+
+#tablo .displaybox-name {
+  font-size: 3em;
+  font-weight: bold; 
+  padding-right: 30px;
+}
+
+#tablo .displaybox-age, #tablo .displaybox-blurb {
+  font-size: 1.5em;
+  color: gray;
+}
+
+#tablo .displaybox-desc {
+  padding: 20px;
+  overflow-y: scroll; 
+  flex-grow: 1;
+}
+
+#tablo .displaybox-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+  margin-bottom: -10px;
+  flex-shrink: 0;
+}
+
+#tablo .displaybox-nav-arrow {
+  font-size: 6em;
+  cursor: pointer;
+  font-weight: bold;
+  color: gray;
+}
+
+@media only screen and (max-width: 700px) {
+  #tablo .entry {
+    width: 100%;
+    margin: 0 0 10px 0; 
+  }
+
+  #tablo .displaybox {
+    max-width: 80vw;
+    max-height: 90vh;
+  }
+
+  #tablo .displaybox-img-container, #tablo .displaybox-img {
+    width: 100px;
+  }
+  
+  #tablo .displaybox-close {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+  }
+
+  #tablo .displaybox-name {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  #tablo .displaybox-age, #tablo .displaybox-blurb {
+    font-size: 1em;
+    color: gray;
+  }
+
+  #tablo .displaybox-desc {
+    font-size: 0.9em;
+  }
+
+  #tablo .displaybox-nav {
+    margin-top: -20px; 
+  }
+
+  #tablo .displaybox-nav-arrow {
+    font-size: 4em;
+  }
+}
