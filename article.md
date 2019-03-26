@@ -1,8 +1,8 @@
 title: "Komik, plynová princezna a čokoládový král. Kdo chce stanout v čele Ukrajiny?"
 perex: "Zkušení politici, novináři, komediální herec, kariérní špioni i váleční veteráni. Možná není náhoda, že se mají výsledky prvního kola ukrajinských voleb při troše štěstí vyhlásit na apríla. Spektrum kandidátů je opravdu široké: z 89 lidí nakonec splnilo podmínky rekordních 44, pět pak kandidaturu vzdalo. Průzkumům vévodil týdny před volbami komik Volodymyr Zelenskyj, druhé kolo ale jisté nemá, ani jeden z tandemu Julia Tymošenková a Petro Porošenko se nevzdává. Přinášíme přehled hlavních kandidátů na prezidenta země, která je už pět let ve válce."
 published: "26. března 2019"
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_medium/public/images/03456343.jpeg?itok=xkVeTk-v
-coverimg_note: "Petro Porošenko • Reuters"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/ukrajina_kandidati_190326-114557_haf.png?itok=xsnBXE5z
+coverimg_note: "Koláž Filip Harzer"
 styles: []
 libraries: [] #jquery, d3, highcharts, datatables
 options: [noheader] #wide, noheader (, nopic)
